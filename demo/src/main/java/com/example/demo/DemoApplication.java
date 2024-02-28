@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.example.demo.payment.Payment;
 import com.example.demo.service.Arithmetic;
 
 @SpringBootApplication
@@ -13,6 +14,9 @@ public class DemoApplication {
 		ApplicationContext context= SpringApplication.run(DemoApplication.class, args);
 		
 		 System.out.println("Main method run");
+		Payment p= context.getBean(Payment.class);
+		System.out.println(p);
+		p.doCreditCardTransactions();
 	}
 
 }
