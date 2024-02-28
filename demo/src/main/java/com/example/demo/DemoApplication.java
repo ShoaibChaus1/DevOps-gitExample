@@ -12,11 +12,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context= SpringApplication.run(DemoApplication.class, args);
 		
-		Arithmetic ar= context.getBean(Arithmetic.class);
-		
-		System.out.println("Sum :"+ar.sum(100, 200));
-		
-		System.out.println("Sub "+ar.sub(200, 100));
+		 System.out.println("Main method run");
 	}
 
 }
