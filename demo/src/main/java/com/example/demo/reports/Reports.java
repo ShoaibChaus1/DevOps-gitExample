@@ -10,5 +10,12 @@ public class Reports
 	{
 		System.out.println("Reports.weeklyReports()");
 	}
+	
+	public void montlyReports()
+	
+	{
+		System.out.println("Reports.montlyReports()");
+	}
+	
 
 }
