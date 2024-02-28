@@ -17,6 +17,7 @@ public class DemoApplication {
 		Payment p= context.getBean(Payment.class);
 		System.out.println(p);
 		p.doCreditCardTransactions();
+		
 	}
 
 }

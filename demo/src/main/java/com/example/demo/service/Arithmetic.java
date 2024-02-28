@@ -1,5 +1,8 @@
 package com.example.demo.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Arithmetic 
 {
 	public int sum(int x,int y)
